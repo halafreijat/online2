@@ -3,14 +3,14 @@ function hala() {
     var b;
     var a = prompt('choose a number');
     
-      while( a !== 1 && a !== 0) {
-          prompt('please pick 1 or 0');
+      while( a !== 'one' && a !== 'zero') {
+          prompt('please pick one or zero');
       }
 
-          if (a === 1) {
+          if (a == 'one') {
           b = 'win';
           }
-          else if( a === 0) {
+          else if( a == 'zero') {
           b = 'lose';
           }
       
